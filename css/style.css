@@ -1,0 +1,57 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial;
+}
+#containter {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.item {
+    border: solid;
+    overflow: auto;
+    margin-bottom: 10px;
+    padding: 5%;
+    max-height: 50%;
+    border-width: 1px;
+    border-color:black;
+}
+div.col-2{
+    float: left;
+}
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    width:304px;
+    height:228px;
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+a#render:link, a:visited {
+    background-color: greenyellow;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+}
+a#render:hover, a:active{
+    background-color: green;
+}
+input {
+    background-color: greenyellow;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+}
+input:hover, input:active{
+    background-color: green;
+    border-radius: 10px;
+}
+
+
+
